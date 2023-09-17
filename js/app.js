@@ -19,7 +19,7 @@ document.querySelector(".check").addEventListener("click", function () {
   else if (guess === secretNumber) {
     document.querySelector(".message").textContent = "Correct number,You won";
     document.querySelector(".number").textContent = secretNumber;
-    document.querySelector("body").style.backgroundColor = "yellow";
+    document.querySelector("body").style.backgroundColor = "#60b347";
     document.querySelector(".number").style.backgroundColor = "15rem";
 
     if (score > highScore) {
@@ -56,6 +56,6 @@ document.querySelector(".again").addEventListener("click", () => {
   document.querySelector(".guess").value = "";
   document.querySelector(".message").textContent = "Start guessing...";
 
-  //   document.querySelector("body").style.backgroundColor = "red";
+  document.querySelector("body").style.backgroundColor = "#222";
   //   document.querySelector("body").style.width = "15rem";
 });

@@ -12,32 +12,62 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row first-section">
+      <div class="row first-section d-flex mt-5">
+        <div class="col-md-6">
+          <button class="btn again">Again!</button>
+        </div>
+        <div class="col-md-6">
+          <p class="between">(Between 1 and 20)</p>
+        </div>
+      </div>
+
+      <div class="row second-section">
+        <div class="col-md-12 d-flex justify-content-center">
+          <h1 class="guess-heading">Guess My Number!</h1>
+        </div>
+      </div>
+
+      <div class="row third-section">
+        <div class="col-md-12 d-flex justify-content-center straight-line">
+          <div class="number">?</div>
+        </div>
+      </div>
+      <div class="row fourth-section">
+        <div class="col-md-6 d-flex input-div justify-content-center">
           <div class="col-md-6">
-            <!-- <h1 class="game-heading">Guess My Number!</h1> -->
-             <button class="btn again">Again!</button>
+            <p class="input-heading">Enter a number</p>
           </div>
           <div class="col-md-6">
-            <p class="between">(Between 1 and 20)</p>
+            <input type="number" name="" id="" class="guess" />
           </div>
-      </div>
-      
-       
-        <!-- <div class="number">?</div> -->
-      </div>
-      <!-- <main>
-        <section class="left">
-          <input type="number" class="guess" />
-          <button class="btn check">Check!</button>
-        </section>
-        <section class="right">
+        </div>
+        <div class="col-md-6 message-div">
           <p class="message">Start guessing...</p>
-          <p class="label-score">💯 Score: <span class="score">20</span></p>
-          <p class="label-highscore">
-            🥇 Highscore: <span class="highscore">0</span>
+        </div>
+      </div>
+      <div class="row fifth-section">
+        <div class="col-md-6 d-flex input-div justify-content-center check-div">
+          <button class="btn check">Check!</button>
+        </div>
+        <div class="col-md-6 message-div">
+          <p class="score-label mb-5">Score:<span class="score">20</span></p>
+          <p class="highscore-label">
+            HighScore:<span class="highscore">0</span>
           </p>
-        </section> -->
-      </main>
+        </div>
+      </div>
+
+      <div class="row footer attribution my-contacts-div mt-5">
+        <div class="col-md-12">
+          Challenge from
+          <a href="#" target="_blank">jonas course</a>. Coded by
+          <a href="#">Romualdtech</a>.
+          <a href="mailto:romualdadjimagbe2018@gmail.com"
+            >Click here to message developer</a
+          >
+        </div>
+      </div>
+
       <script src="js/app.js"></script>
     </div>
   </body>
