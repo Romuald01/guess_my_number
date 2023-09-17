@@ -19,7 +19,7 @@ body {
 }
 
 /* LAYOUT */
-header {
+.header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
@@ -53,9 +53,11 @@ h1 {
   width: 100%;
   top: 52%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 }
-
+.fitst-section {
+  display: flex;
+}
 .number {
   background: #eee;
   color: #333;
@@ -77,9 +79,9 @@ h1 {
 }
 
 .again {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
+  /* position: absolute; */
+  /* top: 2rem;
+  left: 2rem; */
 }
 
 .guess {
@@ -119,3 +121,23 @@ h1 {
 }
 
 /* ******************MEDIA QUERY*************** */
+
+@media screen and (max-width: 1024px) {
+  .number {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    /* margin-top: 300px;
+    margin-bottom: 100px;  */
+  }
+  header {
+    /* margin-top: 100px; */
+  }
+  .game-heading {
+    font-size: 36px;
+  }
+  .again {
+    width: 150px;
+  }
+}
