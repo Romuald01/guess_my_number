@@ -9,3 +9,4 @@ How guess my number game works
 7. but if you reload the page you will lose all you score and you will need to staet afresh.
 8. The highscore is qual to the highest score got in the score
    9.if the input is empty, a message will show that the input is empty
+9. when you enter a number in the input field, you will click on the check button to see if you guess right.
